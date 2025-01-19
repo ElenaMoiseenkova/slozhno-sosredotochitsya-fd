@@ -56,7 +56,6 @@
   grid-template-rows: 1fr min-content 1fr;
   justify-items: start;
   gap:55px;
-  min-block-size: 100%;
 }
 
 .decorated_zone {
@@ -361,7 +360,6 @@
 
 .footer {
   display: grid;
-  block-size: 100%;
 }
 
 .footer-text {
