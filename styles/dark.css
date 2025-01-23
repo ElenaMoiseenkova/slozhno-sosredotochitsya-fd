@@ -1,7 +1,10 @@
 .theme-dark .page {
   --accent-color: #FF0070;
-    --accent__header-title-clr: #DB00FF;
-    --accent__text-color: #F1B2CE;
-    --image-cover: url(../images/cover-image-dark.png);
-    --text-color: #000028;
+  --accent__color-heading: #FF0070;
+  --accent__header-title-clr: #DB00FF;
+  --accent__header-menu-bttn-clr: #FF0070;
+  --accent__text-color: #F1B2CE;
+  --dsply-rec: block;
+  --image-cover: url(../images/cover-image-dark.png);
+  --text-color: #000028;
 }

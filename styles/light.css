@@ -1,46 +1,23 @@
-@media (prefers-color-scheme: light) {
-  :root.theme-light {
-    --accent-color: #FF8DCB;
-    --accent__header-title-clr: #FFC2E6;
-    --accent__text-color: #353430;
-    --image-cover: url(../images/cover-image-light.png);
-    --text-color: #353430;
-  }
-}
-
 .theme-light .page {
-  --accent-color: #FF8DCB;
-  --accent__header-title-clr: #FFC2E6;
+  --accent-color: #ff8dcb;
+  --accent__color-heading: #353430;
+  --accent__header-title-clr: #ffc2e6;
+  --accent__header-menu-bttn-clr: #353430;
   --accent__text-color: #353430;
+  --dsply-rec: none;
   --image-cover: url(../images/cover-image-light.png);
   --text-color: var(--accent__text-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #ff8dcb;
+    --accent__color-heading: #353430;
+    --accent__header-title-clr: #ffc2e6;
+    --accent__header-menu-bttn-clr: #353430;
+    --accent__text-color: #353430;
+    --dsply-rec: none;
+    --image-cover: url(../images/cover-image-light.png);
+    --text-color: var(--accent__text-color);
   }
-
-.theme-light .accent-heading {
-  color: var(--accent__text-color);
-  }
-
-.theme-light .dark__theme-rec {
-  display: none;
 }
-
-.theme-light .header__theme-menu-button {
-  color: var(--accent__text-color);
-}
-
-.theme-light .header__theme-menu-button:hover {
-  outline: 0.5px solid var(--accent__text-color);
-}
-
-.theme-light .header__theme-menu-button:focus {
-  outline: none;
-}
-
-.theme-light .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--accent__text-color);
-}
-
-.theme-light .header__theme-menu-button_active {
-  outline-color: var(--accent__text-color);
-}
-
